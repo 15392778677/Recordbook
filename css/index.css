@@ -67,15 +67,21 @@ body {
   font-weight: 300;
   color: gray;
 }
-
+.img {
+  position: absolute;
+  width:"80px";
+  height:"auto";
+  margin-top: -150px;
+  background-color: transparent;
+  }
 #todoapp h1 {
   position: absolute;
-  top: -160px;
+  top: -140px;
   width: 100%;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 100;
   text-align: center;
-  color: rgba(175, 47, 47, .8);
+  /* color: rgba(175, 47, 47, .8); */
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
@@ -371,11 +377,4 @@ html .clear-completed:active {
   .filters {
     bottom: 10px;
   }
-}
-.img {
-position: absolute;
-width:"100px";
-height:"auto";
-margin-top: -150px;
-background-color: transparent;
 }
